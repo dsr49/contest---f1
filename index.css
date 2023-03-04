@@ -1,0 +1,340 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: 'Ruda', sans-serif;
+
+}
+
+nav {
+    /* border: 2px dashed tomato; */
+    padding-left: 1.05rem;
+    padding-right: 1.05rem;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#right>li>i {
+
+    padding-right: 1rem;
+}
+
+#center,
+#right {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+#left {
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 0.8rem;
+    font-weight: 400;
+}
+
+li {
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+main {
+    position: relative;
+    text-align: start;
+    color: white;
+    background-image: url("pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    padding-left: 5rem;
+    min-height: 80vh;
+    /* border: 2px solid red; */
+
+
+}
+
+span.h {
+    /* border: 2px solid red; */
+    font-size: 6.5rem;
+    position: relative;
+    left: 3rem;
+    width: fit-content;
+    /* text-decoration: underline wavy blue 5px; */
+
+}
+
+.line {
+    position: relative;
+    padding: 0.3rem;
+    background-color: tomato;
+    left: 3rem;
+    top: 4rem;
+
+}
+
+main>div {
+    /* border: 2px solid red; */
+    position: relative;
+    font-size: 1.5rem;
+    top: 7rem;
+    left: 3rem;
+    width: 30rem;
+    line-height: 2.5rem;
+
+}
+
+.aboutus {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3.under {
+    text-decoration: underline 7px rgb(227, 50, 50);
+
+}
+
+#aboutus-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.aboutus-text {
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    width: 40vw;
+    text-align: left;
+    /* border: 2px solid wheat; */
+    padding-left: 6rem;
+
+    margin: 0px;
+    line-height: 2.5rem;
+}
+
+.aboutus-img {
+    padding-right: 3rem;
+    max-height: 20vh;
+    /* border: 2px solid wheat; */
+    margin: 0px;
+
+
+}
+
+.menu-main {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    padding: 9rem;
+    padding-bottom: 0rem;
+    margin-bottom: 1rem;
+}
+
+.menu-main>.des {
+    font-size: 1.7rem;
+    text-align: left;
+    line-height: 2.5rem;
+
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    font-size: 1.5rem;
+}
+
+.dish {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.dish-img>img {
+    border: 0px;
+    border-radius: 7%;
+}
+
+.dish-tex {
+    padding-top: 2rem;
+    padding-left: 0.7rem;
+    line-height: 1.5rem;
+}
+
+.dish-tex>b {
+    padding: 1.05rem;
+}
+
+.findus {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    justify-content: space-around;
+
+}
+
+.findus>.left>li {
+    padding-top: 2rem;
+    display: block;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.findus>.left>li>i {
+    padding-right: 0rem;
+    line-height: 1.5rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+footer>.right>ul>li{
+    list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    main {
+        padding-left: 0rem;
+    }
+
+
+    body {}
+
+
+    span.h {
+
+        font-size: 5rem;
+        position: relative;
+        left: 1rem;
+        width: fit-content;
+
+    }
+
+    .line {
+        position: relative;
+        padding: 0.1rem;
+        background-color: tomato;
+        left: 3rem;
+        top: 4rem;
+
+    }
+
+    main>div {
+        /* border: 2px solid red; */
+        position: relative;
+        font-size: 1rem;
+        top: 7rem;
+        left: 1rem;
+        width: 80vw;
+        line-height: 2rem;
+
+    }
+
+    #aboutus-content {
+        display: grid;
+        width: 100%;
+    }
+
+    .aboutus-img {
+        margin-right: 0rem;
+        padding-right: 0rem;
+        /* overflow: hidden; */
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .aboutus-text {
+        position: relative;
+        top: 18rem;
+        left: 1rem;
+        right: 1rem;
+        text-align: justify;
+        width: 60%;
+        height: 30vh;
+        font-size: 1rem;
+        /* overflow: scroll; */
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .menu {
+
+        grid-template-columns: auto;
+    }
+
+    .dish {
+        grid-template-columns: auto;
+
+    }
+
+    .menu-main {
+        padding: 0px;
+        margin: 1rem;
+
+    }
+
+    .menu-main>h3 {
+        /* margin-top: 10rem; */
+        margin: 1rem;
+    }
+
+    .menu-main>.des {
+        padding: 0px;
+        margin: 0px;
+        overflow-x: scroll;
+
+    }
+
+    .dish-tex {
+        padding-top: 0%;
+        padding-bottom: 4rem;
+    }
+
+    #divider {
+        padding: 15rem;
+    }
+
+    .findus {
+        grid-template-columns: auto;
+    }
+
+    .findus>.left>li>i {
+        padding-right: 0rem;
+
+    }
+
+}
